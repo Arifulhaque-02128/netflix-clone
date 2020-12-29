@@ -1,0 +1,36 @@
+.movie-container{
+    margin-left: 15px;
+}
+.posters{
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    justify-content: space-between;
+    padding: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.posters::-webkit-scrollbar {
+    display: none;
+}
+.poster{
+    object-fit: contain;
+    max-height: 100px;
+    margin-left: 10px;
+    transition: transform 100ms;
+}
+.poster:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.poster_original{
+    object-fit: contain;
+    max-height: 250px !important;
+    margin-left: 15px;
+    transition: transform 100ms;
+}
+.poster_original:hover{
+    cursor: pointer;
+    transform: scale(1.1) !important;
+}

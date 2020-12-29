@@ -1,0 +1,66 @@
+.header-poster{
+    object-fit: contain;
+    height: 460px;
+    margin-bottom: 20px;
+}
+.header-contents{
+    padding-left: 6rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+}
+.header-title{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.header-title:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: large;
+}
+.header-overview{
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    text-align: justify;
+}
+.header-overview:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+}
+.header-btn > button{
+    background-color: #111;
+    opacity: 0.5;
+    color: white;
+    margin-right: 2rem;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+}
+.header-btn > button:hover{
+    background-color: white;
+    opacity: 1;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px){
+    .header-contents{
+        padding-left: 9rem;
+        padding-right: 12rem;
+        padding-top: 8rem;
+    }
+    .header-overview{
+        color:white;
+        font-weight: lighter;
+        font-size: larger;
+        text-align: justify;
+    }
+    .header-title{
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    }
+}
